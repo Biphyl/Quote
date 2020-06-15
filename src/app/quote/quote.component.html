@@ -4,9 +4,9 @@
 <body>
   <div class="container-fluid">
 
-
-    <h1>Motivational Quotes</h1>
-
+    <div class="landing">
+      <h1 style="padding-top: 100px;">Motivational Quotes</h1>
+    </div>
 
     <div class="row">
 
@@ -16,7 +16,7 @@
           <div class="card">
             <h3 appHighlight> {{quote.name}} </h3>
             <div class="card">
-              <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+              <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComx`plete)='deleteQuote($event,i)'>
               </app-quote-detail>
 
 

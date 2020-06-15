@@ -26,7 +26,7 @@ quoteDan(purge:boolean){
 }
  
   constructor() { }
-
+  
   ngOnInit() {
   }
 

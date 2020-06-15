@@ -17,6 +17,7 @@ export class QuoteComponent implements OnInit {
     new Quote(1, 'Dont look at the clock, do what it does keep moving', 'Biron Lovine', new Date(2020,4,21)),
     new Quote(2, 'Difficulties in your life do not come to destroy you but to help you realize your potential and future', 'LucycWigwa', new Date(2019,5,16)),
     new Quote(3, 'Success is a battle located in the mind and only the fittest can survive', 'Lovine Biron', new Date(2020,1,21)),
+    new Quote(4, 'There is nothing that is good that comes easy', 'Calvo', new Date(2020,12,3))
   ];
 
   toggleDetails(index) {
